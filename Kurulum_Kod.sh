@@ -3,7 +3,6 @@ sudo docker run -d -i --name traff traffmonetizer/cli start accept --token Bwbf/
 echo  "Traff kuruluyor"
 echo  "--------------------------------"
 sleep 3
-
 echo  "--------------------------------"
 echo  "Packet kuruluyor"
 sudo docker stop watchtower; sudo docker rm watchtower;
